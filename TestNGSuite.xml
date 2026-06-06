@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="AI_Driven_OrangeHRM_Suite" verbose="1">
+    <listeners>
+        <listener class-name="utilities.Listeners" />
+    </listeners>
+    <test name="LoginTests">
+        <classes>
+            <class name="allTestCasesOfPageWise.TestCasesOfLoginPage" />
+        </classes>
+    </test>
+</suite>
